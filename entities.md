@@ -32,7 +32,7 @@ The *local financial systems*. Each `system` is its own separate little independ
   - **type** — Whether the issue of coins is limited and what type of limit is used (*unlimited / limited*)
   - **limit** (*type = limited*) — The limit of coins to issue at system (unchangeble in the future)
 - **password** — Hashed password
-- **status** — System’s status (*creating / working / deleted*)
+- **status** — System’s status (*active / deleted*)
 - **created** — Timestamp
 - **updated** — Timestamp
 
@@ -46,7 +46,7 @@ Member of some system
 - **system** — The system where member exists
 - **name** — Username, unique for system
 - **password** — Hashed password
-- **status** — Member’s status (*validating / rejected / approved / deleted*)
+- **status** — Member’s status (*validating / rejected / active / deleted*)
 - **created** — Timestamp
 - **updated** — Timestamp
 
